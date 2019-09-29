@@ -1,17 +1,30 @@
 
  import React from 'react'
 
- function MyInfo(){
-    return(
-
-         <React.Fragment>
-       <h1>Monika Mladenovski</h1>
-         <p>This is a paragraph about me ...</p>        
-          <ul>
-             <li>Maroco</li>
-             <li>Taihland</li>
-         </ul>
-         </React.Fragment>
-     )
+ class MyInfo extends React.Component {
+   constructor(){
+     super()
+     this.state={
+       count:0
+     }
+     this.handleClick=this.handleClick.bind(this)
+   }
+ 
+ handleClick() {
+   this.setState(prevState=>{
+     return{
+       count:prevState.count+1
+     }
+   })
  }
+ render() {
+   return(
+     <React.Fragment>
+       <h1>{this.state.count}</h1>
+       <button onClick={this.handleClick}>Change</button>
+     </React.Fragment>
+   )
+ }
+}
+
  export default MyInfo

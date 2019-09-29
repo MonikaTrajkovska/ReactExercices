@@ -2,6 +2,10 @@
  import Footer from './components/Footer'
  import MyInfo from './components/MyInfo'
  import MainContent from './components/MainContent'
+ import Formula from './components/Formula'
+ import Todo from './components/Todo'
+ 
+
 
  function App(){
     return(
@@ -9,23 +13,12 @@
          <Footer/>
          <MyInfo/>
          <MainContent/>
+         <Formula/>
+         <Todo/>
+         
+         
          </div>
      )
  }
 
 export default App
-// import React from 'react'
-// function App(){
-//     return(
-//         <React.Fragment>
-//             <input type="checkbox"></input>
-//             <p>Placeholder text here</p>
-//             <input type="checkbox"></input>
-//             <p>Placeholder text here</p>
-//             <input type="checkbox"></input>
-//             <p>Placeholder text here</p>
-//         </React.Fragment>
-//     )
-// }
-
-// export default App

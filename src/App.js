@@ -4,6 +4,7 @@
  import MainContent from './components/MainContent'
  import Formula from './components/Formula'
  import Todo from './components/Todo'
+ import Example from './components/Example'
  
 
 
@@ -15,6 +16,7 @@
          <MainContent/>
          <Formula/>
          <Todo/>
+         <Example/>
          
          
          </div>

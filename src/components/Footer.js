@@ -1,18 +1,19 @@
- import React from 'react'
-import '../style.css'
- 
- function Footer(){
-      return(
-          <React.Fragment>
-     <footer>
-          <h3 className="nav">This is my footer element</h3> 
-          </footer>
-         
-          </React.Fragment>
-      )
-  
+import React from 'react'
 
-       
-    
- }
- export default Footer
+function Footer(){
+    return(
+        <footer>
+<h3>This is my footer </h3>
+        </footer>
+    )
+}
+export default Footer
+
+
+
+
+
+
+
+
+

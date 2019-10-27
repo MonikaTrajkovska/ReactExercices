@@ -4,20 +4,24 @@
  import Box from './components/Box'
  import Moni from './components/Moni'
  import Joke from './components/Joke'
- import Products from './components/Products'
+//  import Products from './components/Products'
+import todosData from './components/todosData'
+
  
 
 
 
  function App(){
+
     return(
      <div>
        <MyInfo/>
        <Footer/> 
     <Box/>
     <Moni/>
+   
     <Joke question="Kako si" answer="Dobro"/>
-    <Products/>
+    {/* <Products/> */}
          
          </div>
      )

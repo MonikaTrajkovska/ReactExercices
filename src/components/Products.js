@@ -1,12 +1,13 @@
-import React from 'react'
-function Products(props){
-    return(
-        <React.Fragment>
+// import React from 'react'
 
-            <h2>{props.product.name}</h2>
-            <p>{props.product.price}</p>
-            </React.Fragment>
+// function Products(props){
+//     return(
+//         <React.Fragment>
 
-    )
-}
-export default Products
+//             <h2>{props.products.name}</h2>
+//             <p>{props.products.price}</p>
+//             </React.Fragment>
+
+//     )
+// }
+// export default Products

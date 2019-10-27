@@ -1,20 +1,22 @@
 import React from 'react'
 
 
-function Box(){
+
+function Box (props){
+   
     return(
         <React.Fragment>
         <input type ="checkbox"/>
-        <p>Placeholder text here </p>
+        <p>{props.item} </p> 
 
-        <input type ="checkbox"/>
-        <p>Placeholder text here </p>
-
-   <input type ="checkbox"/>
+        {/* <input type ="checkbox"/>
         <p>Placeholder text here </p>
 
    <input type ="checkbox"/>
         <p>Placeholder text here </p>
+
+   <input type ="checkbox"/>
+        <p>Placeholder text here </p> */}
         </React.Fragment>
     )
 }

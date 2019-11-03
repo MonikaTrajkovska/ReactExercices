@@ -6,6 +6,11 @@
  import Joke from './components/Joke'
 //  import Products from './components/Products'
 import todosData from './components/todosData'
+import Igor from './components/Igor'
+// import Conditional from './components/Conditional'
+import Api from './components/Api'
+import Form from './components/Form'
+
 
  
 
@@ -19,6 +24,10 @@ import todosData from './components/todosData'
        <Footer/> 
     <Box/>
     <Moni/>
+    {/* <Conditional/> */}
+    <Igor/>
+    <Api/>
+    <Form/>
    
     <Joke question="Kako si" answer="Dobro"/>
     {/* <Products/> */}

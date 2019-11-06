@@ -11,6 +11,7 @@ import Igor from './components/Igor'
 import Api from './components/Api'
 import Form from './components/Form'
 import Post from './component/Post'
+import Postform from './component/Postform'
 
 
  function App(){
@@ -25,6 +26,9 @@ import Post from './component/Post'
     <Igor/>
     <Api/>
     <Form/>
+    <hr/>
+    <Postform/>
+    <hr/>
     <Post/>
    
     <Joke question="Kako si" answer="Dobro"/>

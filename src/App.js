@@ -10,10 +10,7 @@ import Igor from './components/Igor'
 // import Conditional from './components/Conditional'
 import Api from './components/Api'
 import Form from './components/Form'
-
-
- 
-
+import Post from './component/Post'
 
 
  function App(){
@@ -28,6 +25,7 @@ import Form from './components/Form'
     <Igor/>
     <Api/>
     <Form/>
+    <Post/>
    
     <Joke question="Kako si" answer="Dobro"/>
     {/* <Products/> */}
